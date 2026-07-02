@@ -37,7 +37,7 @@ export default function ProductDetailPage() {
   }
 
   const handleBeli = () => {
-    const nomorWA = "6281234567890";
+    const nomorWA = "6281818833633";
     const teksPesan = `Halo SkenaSpace! Saya mau beli produk premium ini:\n\n*ID:* ${product.id}\n*Produk:* ${product.title}\n*Harga:* ${product.price}\n\nMohon diproses kak!`;
     window.open(`https://api.whatsapp.com/send?phone=${nomorWA}&text=${encodeURIComponent(teksPesan)}`, "_blank");
   };

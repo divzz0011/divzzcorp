@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F9FAFB;
+  color: #12141C;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Dukungan otomatis dark mode jika sistem user menggunakan tema gelap */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #12141C;
+    color: #F9FAFB;
+  }
+}

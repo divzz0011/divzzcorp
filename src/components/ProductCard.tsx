@@ -13,8 +13,8 @@ interface ProductCardProps {
 export default function ProductCard({ title, category, description, price }: ProductCardProps) {
   // Fungsi otomatis untuk mengarahkan orderan ke WhatsApp admin
   const handleOrder = () => {
-    const text = `Halo Admin SkenaSpace! Pesen produk ini dong:\n\n*Nama:* ${title}\n*Kategori:* ${category}\n*Harga:* ${price}\n\nMohon info tautan aksesnya ya, terima kasih!`;
-    window.open(`https://wa.me/6281234567890?text=${encodeURIComponent(text)}`, "_blank");
+    const text = `Halo Admin! Pesen produk ini dong:\n\n*Nama:* ${title}\n*Kategori:* ${category}\n*Harga:* ${price}\n\nMohon info tautan aksesnya ya, terima kasih!`;
+    window.open(`https://wa.me/6281818833633?text=${encodeURIComponent(text)}`, "_blank");
   };
 
   return (
